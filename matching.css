@@ -226,3 +226,8 @@ border-collapse: collapse;
     from {opacity: 0;}
     to {opacity:1 ;}
 }
+
+.makeup {
+  text-align: left;
+  display: block;
+}
