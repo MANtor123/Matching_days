@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>Matching Days</title>
   <link rel="stylesheet" href="matching.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
     <h1> Matching Days <h1>
 
       <h2> Weekdays </h2>
 
-    <table>
+    <table class ='table1'>
       <th> Monday </th>
       <th> Tuesday </th>
       <th> Wensday </th>
@@ -23,9 +24,18 @@
     Second date:  <input type='date' id='text2' > </input>
 
     <h4 align='left'><i><u> KEY WORDS <u><i> </h4>
-    <div class='div1' align='right'>  </div>
-     <div class='div2' align='left'>  </div>
-     <div class='div3' align='right'>  </div>
+
+   <div class='div1' align='right' onclick="myFunction()"> Same day
+   <span class='popuptext' id='myPopup'></span>
+   </div>
+
+   <div class='div2' align='left' onclick="myfunction()">
+   <span class='pop' id='popUp'>Seperate day</span>
+   </div>
+
+   <div class='div3' align='left' onclick="my2function()">
+   <span class='poping' id='popingUp'>Same date</span>
+   </div>
 
   <script src='matching.js'> </script>
   </body>
